@@ -1,0 +1,201 @@
+body {
+
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+  }
+  .status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .indicators {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    animation: blink 1.2s infinite;
+  }
+  .circle:nth-child(1) { animation-delay: 0s; }
+  .circle:nth-child(2) { animation-delay: 0.2s; }
+  .circle:nth-child(3) { animation-delay: 0.4s; }
+  .circle:nth-child(4) { animation-delay: 0.6s; }
+  .circle:nth-child(5) { animation-delay: 0.8s; }
+  @keyframes blink {
+    0%, 100% {
+      opacity: 0.2;
+      box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.5);
+    }
+    50% {
+      opacity: 1;
+      box-shadow: 0 0 20px 10px rgba(255, 0, 0, 0.2);
+    }
+  }
+  h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  .h444 {
+    color: #000000;
+  }
+  .server {
+    color: #e5ff00;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin: 5px 0 0;
+    color: #bbbbbb;
+  }
+  .online {
+    color: #ff0000;
+  }
+  .is {
+    color: #fefefe;
+  }
+  .notice, .contact {
+    margin-top: 20px;
+    color: #ffffff;
+  }
+  .head {
+    color: white;
+  }
+  .highlight {
+    color: #ff0059;
+  }
+  .notice-head {
+    color: #ff0000;
+  }
+  .notice-body {
+    color: #ff0000;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  .icon {
+    vertical-align: middle;
+  }
+  .icon.telegram {
+    width: 24px;
+    height: 24px;
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+  .footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    color: #bbb;
+  }
+  .pkg {
+    color: #e100ff
+  }  
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.video-container {
+    margin: 2rem 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.video-js {
+    width: 100%;
+    height: 600px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.tagline {
+    color: #e0e0e0;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 2rem;
+    background: rgb(0, 0, 0);
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+.telegram-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 24px;
+    background: #0088cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.v2ray-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 24px;
+    background: #ff0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.telegram-btn:hover {
+    background: #006699;
+    transform: translateY(-2px);
+}
+
+.icon {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.help-text {
+    color: #d0d0d0;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+:root [href^="//mage98rquewz.com/"],
+:root [href^="//x4pollyxxpush.com/"],
